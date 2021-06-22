@@ -1,9 +1,22 @@
-// src/index.js
+// // src/index.js
+
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import App from './App';
+// import Provider from './context/Provider';
+
+// ReactDOM.render(
+//   <Provider>
+//     <App />
+//   </Provider>,
+//   document.getElementById('root'),
+// );
+
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Provider from './context/Provider';
+import { Provider } from './context/Context';
 
 ReactDOM.render(
   <Provider>
